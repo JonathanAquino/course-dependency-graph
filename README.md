@@ -2,7 +2,8 @@
 Creates a graph showing the pre-requisite dependencies between courses in a school program.
 
 ## Installation
-You will need to download and install Graphviz from http://www.graphviz.org/
+* Download this code from https://github.com/JonathanAquino/course-dependency-graph/archive/master.zip
+* Download and install Graphviz from http://www.graphviz.org/
 
 ## Usage
 Run the following Graphviz commands to generate the graph png:
