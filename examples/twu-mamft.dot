@@ -1,0 +1,152 @@
+digraph G {
+  legend [shape=none, margin=0, label=<
+      <table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+      <tr>
+          <td><img src="dashed-rectangle.png"/></td>
+          <td align="left">Program Prerequisites</td>
+      </tr>
+      <tr>
+          <td bgcolor="#CBE8DD"><img src="dashed-rectangle.png"/></td>
+          <td align="left">Year 1: Fall, Spring, Summer</td>
+      </tr>
+      <tr>
+          <td bgcolor="#DFD4EB"></td>
+          <td align="left">Year 2: Fall, Spring, Summer</td>
+      </tr>
+      <tr>
+          <td bgcolor="#F8C8C5"></td>
+          <td align="left">Elective</td>
+      </tr>
+      <tr>
+          <td>▣</td>
+          <td align="left">Offered every other year</td>
+      </tr>
+      <tr>
+          <td>Ⓒ</td>
+          <td align="left">Candidacy</td>
+      </tr>
+      </table>
+  >];
+
+  // Program Prerequisites
+  ABNORMAL [label=<Abnormal<br/>Psychology<br/>(3)>, style=dashed]
+  BRAIN [label=<Brain &amp;<br/>Behaviour<br/>(3)>, style=dashed]
+  PERSONALITY [label=<Personality<br/>Theory<br/>(3)>, style=dashed]
+  DEVELOPMENTAL [label=<Developmental<br/>Psychology<br/>(3)>, style=dashed]
+  STATS [label=<Introduction<br/>to Statistics<br/>(3)>, style=dashed]
+  MTF525 [label=<MFT 525<br/>Foundational Skills<br/>in Counselling<br/>(3)>, style=dashed]
+  THS540 [label=<THS 540<br/>Intro to<br/>Theology<br/>(2)>, style=dashed]
+  BIB500 [label=<BIB 500<br/>Intro to<br/>Biblical<br/>Studies<br/>(2)>, style=dashed]
+  RES500 [label=<RES 500<br/>Research<br/>Strategies<br/><font color='darkgreen'><b>Year 1 Fall</b></font><br/>(1)>, style=dashed]
+
+  // Electives
+  MFT662 [label=<MFT 662<br/>Career &amp;<br/>Lifestyle<br/>Development<br/>[Elective]<br/>(3)>, style=filled color="#F8C8C5"]
+  MFT674 [label=<MFT 674<br/>Emotionally Focused Therapy<br/>[Elective]<br/>(2/3)>, style=filled color="#F8C8C5"]
+  MFT676 [label=<MFT 676<br/>Gottman<br/>[Elective]<br/><font color='#ffffff'><b>Year 1 Summer</b></font><br/>(2/3)>, style=filled color="#F8C8C5"]
+  MFT616 [label=<MFT 616<br/>Marriage<br/>Enrichment<br/>[Elective]<br/>(2/3)>, style=filled color="#F8C8C5"]
+  MFT671 [label=<MFT 671<br/>Addictions<br/>[Elective]<br/>(3)>, style=filled color="#F8C8C5"]
+  MFT675 [label=<MFT 675<br/>Satir<br/>[Elective]<br/><font color='#844ACA'><b>Year 2 Spring</b></font><br/>(2/3)>, style=filled color="#F8C8C5"]
+  CPSY634 [label=<CPSY 634<br/>Trauma &amp;<br/>Sexual Abuse<br/>Counselling<br/>[Elective]<br/>(3)>, style=filled color="#F8C8C5"]
+
+  // Year 1 Fall
+  MFT552 [label=<MFT 552<br/>Theories<br/>in MFT<br/><font color='darkgreen'><b>Year 1 Fall</b></font><br/>(3) Ⓒ>, style="filled,dashed", fillcolor="#CBE8DD"]
+  MTF553 [label=<MFT 553<br/>Advanced Skills<br/>in MFT<br/><font color='darkgreen'><b>Year 1 Fall</b></font><br/>(3) Ⓒ>, style="filled,dashed", fillcolor="#CBE8DD"]
+  PTH510 [label=<PTH 510<br/>Spiritual<br/>Formation<br/><font color='darkgreen'><b>Year 1 Fall</b></font><br/>(1) Ⓒ>, style="filled,dashed", fillcolor="#CBE8DD"]
+  MFT664 [label=<MFT 664<br/>Ethics &amp;<br/>Professional Issues<br/><font color='darkgreen'><b>Year 1 Fall</b></font><br/>(3) Ⓒ>, style="filled,dashed", fillcolor="#CBE8DD"]
+
+  // Year 1 Spring
+  MFT660 [label=<MFT 660<br/>MFT I<br/><font color='#97D119'><b>Year 1 Spring</b></font><br/>(3) Ⓒ>, style="filled,dashed", fillcolor="#CBE8DD"]
+  MFT590 [label=<MFT 590<br/>Practicum<br/><font color='#97D119'><b>Year 1 Spring</b></font><br/>(3) Ⓒ>, style="filled,dashed", fillcolor="#CBE8DD"]
+  MFT661 [label=<MFT 661<br/>Group<br/>Counselling<br/><font color='#97D119'><b>Year 1 Spring</b></font><br/>(3) Ⓒ>, style="filled,dashed", fillcolor="#CBE8DD"]
+  MFT580 [label=<MFT 580<br/>Psychopathology<br/><font color='#97D119'><b>Year 1 Spring</b></font><br/>(3)>, style="filled,dashed", fillcolor="#CBE8DD"]
+  PTH511 [label=<PTH 511<br/>Spiritual<br/>Formation<br/>for<br/>Counsellors<br/><font color='#97D119'><b>Year 1 Spring</b></font><br/>(1) Ⓒ>, style="filled,dashed", fillcolor="#CBE8DD"]
+
+  // Year 1 Summer
+  MFT682 [label=<MFT 682<br/>Child &amp;<br/>Adolescent<br/>Therapy<br/><font color='#ffffff'><b>Year 1 Summer</b></font><br/>(3) ▣>, style="filled,dashed", fillcolor="#CBE8DD"]
+  MFT691 [label=<MFT 691<br/>Internship I<br/><font color='#ffffff'><b>Year 1 Summer</b></font><br/>(2)>, style="filled,dashed", fillcolor="#CBE8DD"]
+  BIB505 [label=<BIB 505<br/>Biblical<br/>Hermeneutics<br/><font color='#ffffff'><b>Year 1 Summer</b></font><br/>(3)>, style="filled,dashed", fillcolor="#CBE8DD"]
+  THS571 [label=<THS 571<br/>Believers<br/>Church<br/>Theology<br/><font color='#ffffff'><b>Year 1 Summer</b></font><br/>(3)>, style="filled,dashed", fillcolor="#CBE8DD"]
+
+  // Year 2 Fall
+  MFT582 [label=<MFT 582<br/>Statistics<br/>&amp; Research<br/>Evaluation<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(3)>, style=filled, fillcolor="#DFD4EB"]
+  MFT692 [label=<MFT 692<br/>Internship II<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(2)>, style=filled, fillcolor="#DFD4EB"]
+  MFT630 [label=<MFT 630<br/>Counselling<br/>Diverse<br/>Populations<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(2)>, style=filled, fillcolor="#DFD4EB"]
+  PTH660 [label=<PTH 660<br/>Spiritual<br/>Resources<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(2)>, style=filled, fillcolor="#DFD4EB"]
+  THS671 [label=<THS 671<br/>Systematic<br/>Theology I<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(3)>, style=filled, fillcolor="#DFD4EB"]
+  THS672 [label=<THS 672<br/>Systematic<br/>Theology II<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(3)>, style=filled, fillcolor="#DFD4EB"]
+  THS631 [label=<THS 631<br/>Theology of<br/>Suffering<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(3) ▣>, style=filled, fillcolor="#DFD4EB"]
+
+  // Year 2 Spring
+  MFT670 [label=<MFT 670<br/>Advanced<br/>MFT II<br/><font color='#844ACA'><b>Year 2 Spring</b></font><br/>(3)>, style=filled, fillcolor="#DFD4EB"]
+  MFT693 [label=<MFT 693<br/>Internship III<br/><font color='#844ACA'><b>Year 2 Spring</b></font><br/>(2)>, style=filled, fillcolor="#DFD4EB"]
+  BOT652 [label=<BOT 652<br/>Exposition<br/>of the<br/>Psalms<br/><font color='#844ACA'><b>Year 2 Spring</b></font><br/>(2)>style=filled, fillcolor="#DFD4EB"]
+  THS648 [label=<THS 648<br/>Theol Issues in<br/>Counselling<br/><font color='#844ACA'><b>Year 2 Spring</b></font><br/>(3)>style=filled, fillcolor="#DFD4EB"]
+
+  // Year 2 Summer
+  MFT694 [label=<MFT 694<br/>Internship IV<br/><font color='#ffffff'><b>Year 2 Summer</b></font><br/>(2)>style=filled, fillcolor="#DFD4EB"]
+  MFT683 [label=<MFT 683<br/>Family Life Cycle Development<br/><font color='#ffffff'><b>Year 2 Summer</b></font><br/>(3) ▣>style=filled, fillcolor="#DFD4EB"]
+  BNT657 [label=<BNT 657<br/>Ephesians<br/>or<br/>BNT 658<br/>Philippians<br/>or other<br/>Bible course<br/><font color='#ffffff'><b>Year 2 Summer</b></font><br/>(2)<br/>>, style=filled, fillcolor="#DFD4EB"]
+
+  MTF525 -> MTF553
+  MTF553 -> MFT590
+  MFT552 -> MFT590
+  MTF553 -> MFT660
+  MFT552 -> MFT660
+  MFT590 -> MFT691
+  MFT691 -> MFT692
+  MFT692 -> MFT693
+  MFT693 -> MFT674
+  MFT693 -> MFT694
+  ABNORMAL -> MFT580
+  BRAIN -> MFT580
+  BRAIN -> MTF553
+  PERSONALITY -> MFT552
+  DEVELOPMENTAL -> MFT682
+  MTF553 -> MFT682
+  MFT660 -> MFT682
+  DEVELOPMENTAL -> MFT683
+  BIB500 -> BIB505
+  PTH510 -> PTH660
+  PTH511 -> PTH660
+  THS540 -> THS671
+  THS571 -> THS671
+  THS540 -> THS571
+  THS540 -> THS672
+  THS571 -> THS672
+  THS540 -> THS631
+  MFT582 -> MFT670 [style=dashed, label=<Ideally>]
+  STATS -> MFT582
+  MTF553 -> MFT670
+  PTH660 -> MFT670
+  BIB505 -> BOT652
+  MTF553 -> MFT676
+  MFT590 -> MFT676
+  MFT660 -> MFT676
+  MFT664 -> MFT590
+  MTF553 -> MFT661
+  BIB505 -> BNT657
+  MFT590 -> MFT616
+  MFT590 -> MFT671
+  MFT590 -> MFT675
+
+  MFT660 -> MFT670
+  // Unfortunately MFT660 -> MFT670 causes an error "malloc: *** error for object 0x7fa2c340d5c0:
+  // pointer being freed was not allocated" if we don't include {rank = same; MFT660; MFT670;}.
+  {rank = same; MFT660; MFT670;}
+
+  // The following edges won't affect the layout.
+  edge[constraint=false];
+  MFT552 -> MTF553 [style=solid, arrowhead=none, label=<Take together>]
+  {rank = same; MFT552; MTF553;}
+  RES500 -> MFT664 [style=solid, arrowhead=none, label=<Take together>]
+  {rank = same; RES500; MFT664;}
+  MFT590 -> MFT660 [style=solid, arrowhead=none, label=<Take together>]
+  {rank = same; MFT590; MFT660;}
+  THS631 -> THS672 [style=solid, arrowhead=none, label=<Or>]
+  {rank = same; THS631; THS672;}
+  THS671 -> THS672 [style=solid, arrowhead=none, label=<Or>]
+  {rank = same; THS671; THS672;}
+
+}
+
+
