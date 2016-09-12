@@ -71,7 +71,6 @@ digraph G {
   MFT582 [label=<MFT 582<br/>Statistics<br/>&amp; Research<br/>Evaluation<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(3)>, style=filled, fillcolor="#DFD4EB"]
   MFT692 [label=<MFT 692<br/>Internship II<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(2)>, style=filled, fillcolor="#DFD4EB"]
   MFT630 [label=<MFT 630<br/>Counselling<br/>Diverse<br/>Populations<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(2)>, style=filled, fillcolor="#DFD4EB"]
-  PTH660 [label=<PTH 660<br/>Spiritual<br/>Resources<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(2)>, style=filled, fillcolor="#DFD4EB"]
   THS671 [label=<THS 671<br/>Systematic<br/>Theology I<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(3)>, style=filled, fillcolor="#DFD4EB"]
   THS672 [label=<THS 672<br/>Systematic<br/>Theology II<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(3)>, style=filled, fillcolor="#DFD4EB"]
   THS631 [label=<THS 631<br/>Theology of<br/>Suffering<br/><font color='#1B003C'><b>Year 2 Fall</b></font><br/>(3) ▣>, style=filled, fillcolor="#DFD4EB"]
@@ -86,6 +85,7 @@ digraph G {
   MFT694 [label=<MFT 694<br/>Internship IV<br/><font color='#ffffff'><b>Year 2 Summer</b></font><br/>(2)>style=filled, fillcolor="#DFD4EB"]
   MFT683 [label=<MFT 683<br/>Family Life Cycle Development<br/><font color='#ffffff'><b>Year 2 Summer</b></font><br/>(3) ▣>style=filled, fillcolor="#DFD4EB"]
   BNT657 [label=<BNT 657<br/>Ephesians<br/>or<br/>BNT 658<br/>Philippians<br/>or other<br/>Bible course<br/><font color='#ffffff'><b>Year 2 Summer</b></font><br/>(2)<br/>>, style=filled, fillcolor="#DFD4EB"]
+  PTH660 [label=<PTH 660<br/>Spiritual<br/>Resources<br/><font color='#ffffff'><b>Year 2 Summer</b></font><br/>(2)>, style=filled, fillcolor="#DFD4EB"]
 
   MTF525 -> MTF553
   MTF553 -> MFT590
